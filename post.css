@@ -1,0 +1,62 @@
+@import url(card-styles.css);
+
+.container{
+    margin: auto;
+    display: grid;
+    height: 1000px;
+    max-width: 1250px;
+    grid-gap: 20px;
+    grid-template-rows: 300px 500px 200px 1fr;
+    grid-template-areas:
+    "head head head"
+    "con con con"
+    "pp pp pp"
+    "ft ft ft"
+}
+
+
+.box{
+    border: solid black 2px;
+}
+
+.header{
+    grid-area: head;
+    background-image: url(images/winky-guy.jpg);
+    background-size: 1200px;
+    
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: white;
+    text-shadow: 1px 1px 20px blue;
+    
+
+}
+
+.blogText{
+    grid-area: con;
+}
+
+.past-post1{
+    grid-area: pp;
+}
+
+.past-post2{
+    grid-area: pp;
+}
+
+.past-post3{
+    grid-area: pp;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+
+
+
