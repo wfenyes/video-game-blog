@@ -88,9 +88,8 @@ li {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    text-align: center;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .billy:hover {
@@ -100,18 +99,62 @@ li {
 
 .billy {
     background-image: url(assets/billy-headshot.jpg);
-    background-size: 150px;
+    background-size: 200px;
     background-position: center;
-    filter: grayscale(80%)
+    filter: grayscale(80%);
+    position: relative;
     
 }
 
 
 .billy h4 {
     color: white;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-70%);
+}
+
+.tim {
+    background-image: url(assets/tim-headshot.jpg);
+    background-size: 200px;
+    background-position: center;
+    filter: grayscale(80%);
+    position: relative;
+    
 }
 
 
+.tim h4 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-70%);
+}
+
+.tim:hover {
+    filter: grayscale(0%);
+}
+
+.janelle {
+    background-image: url(assets/janelle-headshot.jpg);
+    background-size: 200px;
+    background-position: center;
+    filter: grayscale(80%);
+    position: relative;
+    
+}
+
+
+.janelle h4 {
+    color: white;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-70%);
+}
+
+.janelle:hover {
+    filter: grayscale(0%);
+}
 /* .content-container{
     display: flex;
     align-items: center;
