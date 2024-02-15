@@ -1,11 +1,11 @@
-.blogCard{
+.blog-card{
     display: flex;
     flex-flow: column;
     max-width: 200px;
     margin: auto;
 }
 
-.blogCard img {
+.blog-card img {
     order: -1;
 
 }

@@ -104,8 +104,30 @@ li {
 
 .footer{
     grid-area: ft;
+    margin: 50px auto auto auto;
 }
 
+.footer p {
+    margin: 0;
+}
 
-
+@media (max-width: 1000px) {
+    .container{
+        margin: auto;
+        display: grid;
+        height: 1000px;
+        max-width: 1250px;
+        grid-gap: 20px;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "nav"
+        "t"
+        "at"
+        "bl"
+        "pst1" 
+        "pst2" 
+        "pst3"
+        "ft"
+    }
+}
 
