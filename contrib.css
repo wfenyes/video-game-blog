@@ -90,3 +90,7 @@
 .janelle:hover {
     filter: grayscale(0%);
 }
+
+.join {
+    align-items: center;
+}

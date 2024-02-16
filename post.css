@@ -70,10 +70,14 @@ li {
 
 .author-card-container {
     grid-area: at;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: auto;
 }
 
 .author-image {
+    grid-column: 1 / span 2;
+    grid-row: 1 /span 2;
     background-image: url(assets/billy-headshot.jpg);
     height: 100px;
     width: 100px;
@@ -84,7 +88,24 @@ li {
 
 .author-card-container h3 {
     margin: auto auto auto 20px;
+    grid-column: 2;
+    grid-row: 1;
 }
+
+.social-block {
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto auto auto 20px;
+}
+
+.author-card-container img {
+    grid-column: 2;
+    grid-row: 2;
+    width: 25px;
+    height: 25px;
+}
+
+
 
 .blogText{
     grid-area: bl;
