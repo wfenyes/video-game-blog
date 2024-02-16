@@ -1,7 +1,12 @@
+@import url(contrib.css);
+@import url(gallery.css);
+@import url(nav-bar.css);
+@import url(main-page-blog.css);
 @font-face {
     font-family: video-game-font;
     src: url('assets/fonts/Pixelify_Sans/static/PixelifySans-Medium.ttf');
 }
+
 
 * {
     font-family: video-game-font;
@@ -24,177 +29,6 @@
     "ft ft"
 }
 
-.sidebar-title {
-    grid-area: sbtit;
-    text-align: center;
-    align-items: center;
-
-}
-
-/* .box{
-    border: solid black 2px;
-} */
-
-.gallery-title {
-    grid-area: gal;
-    text-align: center;
-}
-
-.nav-bar-container {
-    grid-area: head;
-    margin: right;
-}
-
-.nav-bar{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-li {
-    margin: 20px;
-}
-
-.sidebar{
-    grid-area: sb;
-    /* grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */
-    /* justify-items: stretch; */
-    /* display:flex;
-    flex-flow: column;
-    height: 100%;
-    align-items: stretch; */
-}
-
-.content{
-    grid-area: con;
-}
-
-.recent-blog-title {
-    grid-area: blt;
-    text-align: center;
-}
-
-.blog-preview{
-    grid-area: bl;
-}
-
-.blog-preview a {
-    display: flex;
-    justify-content: center;
-    
-    color: #007bff;
-}
-
-.contrib-card {
-    display: flex;
-    border: solid;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.billy:hover {
-    filter: grayscale(0%);
-
-}
-
-.billy {
-    background-image: url(assets/billy-headshot.jpg);
-    background-size: 200px;
-    background-position: center;
-    filter: grayscale(80%);
-    position: relative;
-    
-}
-
-
-.billy h4 {
-    color: white;
-    position: absolute;
-    top: 75%;
-    transform: translateY(-70%);
-}
-
-.tim {
-    background-image: url(assets/tim-headshot.jpg);
-    background-size: 200px;
-    background-position: center;
-    filter: grayscale(80%);
-    position: relative;
-    
-}
-
-
-.tim h4 {
-    color: white;
-    position: absolute;
-    top: 75%;
-    transform: translateY(-70%);
-}
-
-.tim:hover {
-    filter: grayscale(0%);
-}
-
-.janelle {
-    background-image: url(assets/janelle-headshot.jpg);
-    background-size: 200px;
-    background-position: center;
-    filter: grayscale(80%);
-    position: relative;
-    
-}
-
-
-.janelle h4 {
-    color: white;
-    position: absolute;
-    top: 75%;
-    transform: translateY(-70%);
-}
-
-.janelle:hover {
-    filter: grayscale(0%);
-}
-/* .content-container{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-flow: row wrap;
-} */
-
-.content-container {
-    display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 300px 300px 300px;
-    margin: auto;
-    align-items: center;
-    justify-items: end;
-}
-
-.img {
-    max-width: 250px;
-    max-height: 250px;
-}
-
-.section-line {
-    height: 1px;
-    background-color: black;
-    margin: 10px 0;
-}
 
 .footer {
     grid-area: ft;

@@ -1,0 +1,28 @@
+.gallery-title {
+    grid-area: gal;
+    text-align: center;
+}
+
+.content-container {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    margin: auto;
+    align-items: center;
+    justify-items: end;
+}
+
+.img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.section-line {
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.content{
+    grid-area: con;
+}

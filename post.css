@@ -94,6 +94,11 @@ li {
     grid-area: pst1;
 }
 
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
 .past-post2{
     grid-area: pst2;
 }

@@ -6,6 +6,10 @@
 }
 
 .blog-card img {
-    order: -1;
+    order: -2;
 
+}
+
+.blog-card figcaption {
+    order: -1;
 }

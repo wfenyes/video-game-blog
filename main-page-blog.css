@@ -1,0 +1,15 @@
+.recent-blog-title {
+    grid-area: blt;
+    text-align: center;
+}
+
+.blog-preview{
+    grid-area: bl;
+}
+
+.blog-preview a {
+    display: flex;
+    justify-content: center;
+    
+    color: #007bff;
+}
